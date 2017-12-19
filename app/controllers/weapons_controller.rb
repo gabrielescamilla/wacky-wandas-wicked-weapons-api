@@ -3,14 +3,14 @@ class WeaponsController < ApplicationController
 
   # GET /weapons
   def index
-    @weapons = Weapon.all
+    @weapons = paginate Weapon.all
 
-    paginate json: @weapons
+    render json: @weapons, each_serializer: WeaponsSerializer 
   end
 
   # GET /weapons/1
   def show
-    render json: @weapon
+    render json: @weapon, serializer: WeaponsSerializer
   end
 
   ## POST /weapons
