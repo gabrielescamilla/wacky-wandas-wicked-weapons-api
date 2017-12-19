@@ -3,14 +3,41 @@ class WeaponsController < ApplicationController
 
   # GET /weapons
   def index
-    @weapons = paginate Weapon.all
+    @weapons = Weapon.all
+    if params[:like_name] then
+      @weapons = @weapons.where("upper(name) LIKE ?", "%#{params[:like_name].upcase}%")
+    end
+    if params[:category] then
+      @weapons = @weapons.where(category: params[:category])
+    end
+    if params[:subcategory] then
+      @weapons = @weapons.where(subcategory: params[:category])
+    end
+    if params[:gte_cost] then
+      @weapons = @weapons.where("cost >= ?", params[:gte_cost])
+    end
+    if params[:lte_cost] then
+      @weapons = @weapons.where("cost <= ?", params[:lte_cost])
+    end
 
-    render json: @weapons, each_serializer: WeaponsSerializer 
+    render json: paginate(@weapons), each_serializer: WeaponsSerializer 
   end
 
   # GET /weapons/1
   def show
     render json: @weapon, serializer: WeaponsSerializer
+  end
+
+  def categories
+    render json: Weapon.select(:category)
+      .distinct
+      .map(&:category)
+  end
+  
+  def subcategories
+    render json: Weapon.select(:subcategory)
+      .distinct
+      .map(&:subcategory)
   end
 
   ## POST /weapons
