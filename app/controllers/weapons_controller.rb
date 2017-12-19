@@ -5,7 +5,7 @@ class WeaponsController < ApplicationController
   def index
     @weapons = Weapon.all
 
-    render json: @weapons
+    paginate json: @weapons
   end
 
   # GET /weapons/1
