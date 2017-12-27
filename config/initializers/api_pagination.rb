@@ -18,8 +18,6 @@ ApiPagination.configure do |config|
   config.per_page_param do |params|
     if params && params[:page]
       params[:page][:size] 
-    else
-      20
     end
   end
 end
