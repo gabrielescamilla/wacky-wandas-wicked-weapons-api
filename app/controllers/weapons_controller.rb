@@ -73,6 +73,6 @@ class WeaponsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def weapon_params
-      params.require(:weapon).permit(:name, :category, :subcategory, :cost, :damage, :range, :weight)
+      params.require(:weapon).permit(:name, :category, :subcategory, :cost, :damage, :range, :weight, :tag, :enchanted)
     end
 end
