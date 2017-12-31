@@ -143,6 +143,7 @@ if Weapon.count == 0 then
   Weapon.create category: "Exotic", subcategory: "One-Handed Melee Weapons", name: "Aldori Dueling Sword", cost: 2000, damage: "1d6", range: nil, weight: 3, tag: "sword7.png"
   Weapon.create category: "Exotic", subcategory: "One-Handed Melee Weapons", name: "Bastard Sword", cost: 3500, damage: "1d8", range: nil, weight: 6, tag: "sword8.png"
   Weapon.create category: "Exotic", subcategory: "One-Handed Melee Weapons", name: "Temple Sword", cost: 3000, damage: "1d6", range: nil, weight: 3, tag: "sword9.png"
+  Weapon.create category: "Exotic", subcategory: "One-Handed Melee Weapons", name: "Mjolnir", cost: 30000, damage: "1d8", range: 20, weight: 10000, tag: "mjolnir.png"
   Weapon.create category: "Exotic", subcategory: "One-Handed Melee Weapons", name: "Urumi", cost: 3000, damage: "1d6", range: nil, weight: 6
   Weapon.create category: "Exotic", subcategory: "One-Handed Melee Weapons", name: "Dwarven Waraxe", cost: 3000, damage: "1d8", range: nil, weight: 8, tag: "axe7.png"
   Weapon.create category: "Exotic", subcategory: "One-Handed Melee Weapons", name: "Whip", cost: 100, damage: "1d2", range: nil, weight: 2
