@@ -5,13 +5,13 @@ if Weapon.count == 0 then
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Battle Aspergillum", cost: 500, damage: "1d4", range: nil, weight: 4, tag: "battle-aspergillum.jpg"
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Brass Knuckles", cost: 100, damage: "1d2", range: nil, weight: 1, tag: "brass-knuckles.png"
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Cestus", cost: 500, damage: "1d3", range: nil, weight: 1, tag: "cestus.jpg"
-  Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Dagger", cost: 200, damage: "1d3", range: 10, weight: 1, tag: "dagger.jpg"
+  Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Dagger", cost: 90, damage: "1d3", range: 10, weight: 1, tag: "dagger.jpg"
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Punching Dagger", cost: 200, damage: "1d3", range: nil, weight: 1, tag: "dagger2.png"
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Spiked Gauntlet", cost: 500, damage: "1d3", range: nil, weight: 1, tag: "cestus.jpg"
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Hanbo", cost: 100, damage: "1d4", range: nil, weight: 2, tag: "hanbo.png"
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Light Mace", cost: 500, damage: "1d4", range: nil, weight: 4, tag: "light-mace.png"
   Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Sickle", cost: 600, damage: "1d4", range: nil, weight: 2, tag: "sickle.png"
-  Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Wooden Stake", cost: 100, damage: "1d3", range: 10, weight: 1, tag: "wooden-stake.png"
+  Weapon.create category: "Simple", subcategory: "Light Melee Weapons", name: "Wooden Stake", cost: 50, damage: "1d3", range: 10, weight: 1, tag: "wooden-stake.png"
   Weapon.create category: "Simple", subcategory: "One-Handed Melee Weapons", name: "Club", cost: 100, damage: "1d4", range: 10, weight: 3, tag: "club.png"
   Weapon.create category: "Simple", subcategory: "One-Handed Melee Weapons", name: "Mere Club", cost: 100, damage: "1d3", range: nil, weight: 2, tag: "mere-club.jpg"
   Weapon.create category: "Simple", subcategory: "One-Handed Melee Weapons", name: "Combat Scabbard", cost: 100, damage: "1d4", range: nil, weight: 1, tag: "scabbard.png"
@@ -69,7 +69,7 @@ if Weapon.count == 0 then
   Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Steel Terbutje", cost: 2000, damage: "1d6", range: nil, weight: 4
   Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Trident", cost: 1500, damage: "1d6", range: 10, weight: 4
   Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Warhammer", cost: 1200, damage: "1d6", range: nil, weight: 5
-  Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Cheap Mjolnir Knockoff", cost: 3000, damage: "1d6", range: 8, weight:5, tag: "mjolnir-knockoff.jpg"
+  Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Cheap Mjolnir Knockoff", cost: 30, damage: "1d6", range: 8, weight:5, tag: "mjolnir-knockoff.jpg"
   Weapon.create category: "Martial", subcategory: "Two-Handed Melee Weapons", name: "Bardiche", cost: 1300, damage: "1d8", range: nil, weight: 14
   Weapon.create category: "Martial", subcategory: "Two-Handed Melee Weapons", name: "Bec De Corbin", cost: 1500, damage: "1d8", range: nil, weight: 12
   Weapon.create category: "Martial", subcategory: "Two-Handed Melee Weapons", name: "Bill", cost: 1100, damage: "1d6", range: nil, weight: 11
