@@ -69,6 +69,7 @@ if Weapon.count == 0 then
   Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Steel Terbutje", cost: 2000, damage: "1d6", range: nil, weight: 4
   Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Trident", cost: 1500, damage: "1d6", range: 10, weight: 4
   Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Warhammer", cost: 1200, damage: "1d6", range: nil, weight: 5
+  Weapon.create category: "Martial", subcategory: "One-Handed Melee Weapons", name: "Cheap Mjolnir Knockoff", cost: 3000, damage: "1d6", range: 8, weight:5, tag: "mjolnir-knockoff.jpg"
   Weapon.create category: "Martial", subcategory: "Two-Handed Melee Weapons", name: "Bardiche", cost: 1300, damage: "1d8", range: nil, weight: 14
   Weapon.create category: "Martial", subcategory: "Two-Handed Melee Weapons", name: "Bec De Corbin", cost: 1500, damage: "1d8", range: nil, weight: 12
   Weapon.create category: "Martial", subcategory: "Two-Handed Melee Weapons", name: "Bill", cost: 1100, damage: "1d6", range: nil, weight: 11
